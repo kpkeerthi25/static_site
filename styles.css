@@ -156,13 +156,23 @@ body {
   margin: 0;
   display: flex;
   list-style: none;
+  background-color: black;
 }
 
 .img-group li {
   width: 25%;
+
+  margin-bottom: 5px;
+  transition: transform 0.2s;
 }
 
 .img-group img {
   height: 100%;
+  opacity: 0.9;
   width: 100%;
+}
+
+.img-group li :hover {
+  opacity: 1;
+  transform: scale(1.02);
 }
