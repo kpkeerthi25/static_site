@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-size: 30px;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+
+  flex-direction: column;
+  margin: 0;
+  /* height: 100vh; */
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin: 0;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+
+  flex-shrink: 0;
+  width: 100%;
+
+  margin-top: 15px;
+}
+
+#logo {
+  height: 100px;
+  padding-left: 20px;
+}
+
+.section-navbar-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-left: auto;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.section-navbar-list > li {
+  /* font-family: sans-serif; */
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#section-1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#section-1__content {
+  position: absolute;
+  top: 40%;
+  padding-left: 40px;
+  color: white;
+}
+
+#section-1__content > h1 {
+  /* font-size: 30px; */
+  /* font-family: arial; */
+  font-weight: 300;
+  margin: 10px 0px 0px 0px;
+}
+
+#button-group > button {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 20px;
+
+  padding: 10px 30px;
+  border-radius: 200px;
+
+  border: 1px solid #e67e22;
+}
+
+#but-1 {
+  background-color: #e67e22;
+  color: white;
+}
+
+#but-2 {
+  background-color: transparent;
+  color: #e67e22;
+}
+
+#button-group > button:hover {
+  background-color: #e67e22;
+  color: white;
+}
+
+#section-2__content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#section-2__content-1 > h2 {
+  font-weight: 300;
+  color: #353433;
+  margin: 10px 0px;
+}
+
+#section-2__content-1 > hr {
+  width: 75px;
+  border-top: 1px solid #e67e22;
+}
+
+#section-2__content-1 > p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+#section-2__content-2 {
+  display: flex;
+  margin: 10px 10%;
+  padding: 10px;
+}
+
+#section-2__content-2 h3 {
+  margin: 10px 0px;
+  font-size: 21px;
+}
+
+#section-2__content-2 p {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+#section-2__content-2 i {
+  zoom: 2.5;
+  padding-left: 5px;
+  color: #e67e22;
+}
+
+.sub-section {
+  margin: 20px 10px;
+}
+
+.img-group {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.img-group li {
+  width: 25%;
+}
+
+.img-group img {
+  height: 100%;
+  width: 100%;
+}
